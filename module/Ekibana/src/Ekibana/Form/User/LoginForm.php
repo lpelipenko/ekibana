@@ -12,6 +12,7 @@ class LoginForm extends Form
         parent::__construct('login');
         $this->setAttribute('class', 'form-inline');
         $this->setAttribute('method', 'post');
+        $this->setAttribute('id', 'loginform');
         $this->add(array(
             'name' => 'email',
             'attributes' => array(
@@ -29,11 +30,11 @@ class LoginForm extends Form
             ),
         ));
         $this->add(array(
-            'name' => 'submit',
+            'name' => 'login',
             'attributes' => array(
                 'type'  => 'submit',
                 'value' => 'Log In',
-                'id' => 'submitbutton',
+                'id' => 'loginbutton',
                 'class' => 'btn',
             ),
         ));
