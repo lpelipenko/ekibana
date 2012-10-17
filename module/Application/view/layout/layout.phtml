@@ -70,7 +70,8 @@
         <?php echo $this->inlineScript() ?>
         <script type="text/javascript">
             $("#signup").on('click', function(){
-                    $("#loginform").submit();
+                $("#loginform").attr('action', 'signup');
+                $("#loginform").submit();
                 });
 
         </script>
