@@ -10,8 +10,8 @@ class User
 
     public function exchangeArray($data)
     {
-        $this->id     = (isset($data['id'])) ? $data['id'] : null;
+        $this->id = (isset($data['id'])) ? $data['id'] : null;
         $this->login = (isset($data['login'])) ? $data['login'] : null;
-        $this->password  = (isset($data['password'])) ? $data['password'] : null;
+        $this->password = (isset($data['password'])) ? $data['password'] : null;
     }
 }
