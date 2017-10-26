@@ -1,45 +1,26 @@
 [
 {
-id: "standard_questions_start__{"DATASOURCE":"CUSTOM_QUESTIONS"}",
-type: "pagebreak",
-metadata: {
-DATASOURCE: "CUSTOM_QUESTIONS"
-}
+"id": "standard_questions_start1",
+"type": "pagebreak",
 },
 {
-id: "gnewton_section_30_pagebreak__{"DATASOURCE":"CUSTOM_QUESTIONS"}",
-type: "pagebreak",
-metadata: {
-DATASOURCE: "CUSTOM_QUESTIONS"
-}
+"id": "attachmentB",
+"type": "file",
+"question": "College Transcript",
+"format": "doc, docx, html, pdf, rtf, txt",
+"max": "1",
 },
 {
-id: "attachmentB__{"DATASOURCE":"COMMON_QUESTIONS"}",
-type: "file",
-question: "College Transcript",
-format: "doc, docx, html, pdf, rtf, txt",
-max: "1",
-metadata: {
-DATASOURCE: "COMMON_QUESTIONS"
-}
+"id": "attachment",
+"type": "file",
+"question": "Cover Letter",
+"format": "doc, docx, html, pdf, rtf, txt",
+"max": "1",
 },
 {
-id: "attachmentC__{"DATASOURCE":"COMMON_QUESTIONS"}",
-type: "file",
-question: "Cover Letter",
-format: "doc, docx, html, pdf, rtf, txt",
-max: "1",
-metadata: {
-DATASOURCE: "COMMON_QUESTIONS"
-}
-},
-{
-id: "gnewton_section_30__{"DATASOURCE":"CUSTOM_QUESTIONS"}",
-type: "information",
-text: "<b>Yo Current Address</b>",
-metadata: {
-DATASOURCE: "CUSTOM_QUESTIONS"
-},
-fontsize: "18"
+"id": "gnewton_section_30",
+"type": "information",
+"text": "<b>Yo Current Address</b>",
+"fontsize": "18"
 }
 ]
