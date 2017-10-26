@@ -1,21 +1,21 @@
 [
 {
 "id": "standard_questions_start1",
-"type": "pagebreak",
+"type": "pagebreak"
 },
 {
 "id": "attachmentB",
 "type": "file",
 "question": "College Transcript",
 "format": "doc, docx, html, pdf, rtf, txt",
-"max": "1",
+"max": "1"
 },
 {
 "id": "attachment",
 "type": "file",
 "question": "Cover Letter",
 "format": "doc, docx, html, pdf, rtf, txt",
-"max": "1",
+"max": "1"
 },
 {
 "id": "gnewton_section_30",
