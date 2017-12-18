@@ -24,9 +24,7 @@
     "id": "date_q",
     "type": "date",
     "question": "Date format",
-    "format": "MM/dd/yyyy",
-    "min": "01/01/1700",
-    "max": "12/31/1799"
+    "format": "MM/dd/yyyy"
   },
   {
     "id":"pagebreak",
