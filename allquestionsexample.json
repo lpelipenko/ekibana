@@ -1,0 +1,87 @@
+
+[ {
+  "id":"text",
+  "type":"text",
+  "question":"text type",
+  "required":false
+},
+  {
+    "id": "file",
+    "type": "file",
+    "question": "Optional file.",
+    "format":"pdf",
+    "required": false,
+    "max":"3"
+  },
+  {
+    "id": "textarea",
+    "type": "textarea",
+    "question": "textarea",
+    "required": true,
+    "min":"1"
+  },
+  {
+    "id": "date_q",
+    "type": "date",
+    "question": "Date format",
+    "format": "MM/dd/yyyy",
+    "min": "01/01/1700",
+    "max": "12/31/1799"
+  },
+  {
+    "id":"pagebreak",
+    "type":"pagebreak"
+  },
+  {
+    "id":"information",
+    "type":"information",
+    "text":"<b>This is information section test and page break was before, check that this is new page</b>",
+    "fontsize":"18"
+  },
+{
+    "id":"select",
+    "type":"select",
+    "question":"select example:",
+    "options":[
+      {
+        "value":"A",
+        "label":"A"
+      },
+      {
+        "value":"B",
+        "label":"B"
+      },
+      {
+        "value":"C",
+        "label":"C"
+      }
+    ]
+},
+  {
+    "id": "multi",
+    "type": "multiselect",
+    "question": "multiselect example",
+    "options": [
+      {
+        "value": "0",
+        "label": "United States"
+      },
+      {
+        "value": "1",
+        "label": "Canada"
+      },
+      {
+        "value": "2",
+        "label": "Mexico"
+      },
+      {
+        "value": "3",
+        "label": "Belize"
+      },
+      {
+        "value": "4",
+        "label": "Other"
+      }
+    ]
+  }
+]
